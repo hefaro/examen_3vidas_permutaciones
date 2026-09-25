@@ -1,7 +1,7 @@
 // Banco de preguntas: Nivel Medio - Permutaciones (Grado 9°)
 // Enfoque: P(n,k), regla multiplicativa condicional y análisis de orden (importa vs no importa)
 
-const bancoMedio = [
+const bancoIntermedio = [
     {
         pregunta: "En una carrera en el parque Cabal participan 8 atletas. Si se va a premiar con Oro, Plata y Bronce a los 3 primeros lugares, ¿de cuántas formas puede quedar el podio?",
         correcta: "336 formas: Como el orden importa, se calcula P(8,3) = 8 × 7 × 6 = 336.",
@@ -65,6 +65,7 @@ const bancoMedio = [
             "10 maneras: Se calculó sin importar qué carro ocupa qué lugar."
         ]
     },
+
     {
         pregunta: "¿Cuál es el resultado matemático exacto de calcular P(6, 2)?",
         correcta: "30: Significa tomar 2 factores empezando desde el 6, es decir, 6 × 5 = 30.",
@@ -74,6 +75,7 @@ const bancoMedio = [
             "720: Se calculó el factorial completo de 6."
         ]
     },
+
     {
         pregunta: "Si tienes 5 libros distintos y quieres acomodar solo 3 en una repisa pequeña, ¿cuántos arreglos diferentes puedes hacer?",
         correcta: "60 arreglos: Al ponerlos en una repisa el orden importa. P(5,3) = 5 × 4 × 3 = 60.",
@@ -83,6 +85,7 @@ const bancoMedio = [
             "10 arreglos: Se trató como una selección donde la posición en la repisa no importara."
         ]
     },
+
     {
         pregunta: "Cinco amigos van a tomarse una foto en fila, pero Camilo y Andrés deciden que DEBEN salir juntos uno al lado del otro. ¿Cuántas fotos distintas pueden tomarse?",
         correcta: "48 fotos: Se toma a Camilo y Andrés como 1 bloque (quedan 4 bloques = 4! = 24). Luego se permutan ellos dos (24 × 2! = 48).",
